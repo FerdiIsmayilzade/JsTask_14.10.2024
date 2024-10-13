@@ -1,0 +1,45 @@
+.cities{
+    height: 100px;
+    display: flex;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.cities button{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    padding: 35px 25px;
+    transition: all 0.5s;
+    
+}
+
+.cities button:hover{
+    background-color: #ddd;
+}
+.city{
+    position: relative;
+    
+}
+.city .about{
+    padding: 25px 15px;
+    border: 1px solid #ccc;
+
+}
+.london{
+    position: absolute;
+    width: 500px;
+}
+.paris{
+    width: 500px;
+    position: absolute;
+    left: -120px;
+
+}
+.tokyo{
+    width: 500px;
+    position: absolute;
+    left: -210px;
+}
